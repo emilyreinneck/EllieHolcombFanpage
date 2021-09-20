@@ -34,27 +34,35 @@ body {
   float: left;
 }
 .contact {
-  text-align: right;
+  text-align: center;
+  float: right;
 }
 
 .instagram {
   margin: 5px;
-  padding: 12px;
+  padding: 5px;
   text-shadow: 2px 2px 2px #D98452;
+  border-radius: 50px;
+  width: 250px;
+  background: #f1eeeb;
 }
 
 .facebook {
   margin: 5px;
-  padding: 12px;
+  padding: 5px;
   text-shadow: 2px 2px 2px #D98452;
   border-radius: 50px;
+  width: 250px;
+  background: #f1eeeb;
 }
 
 .youtube {
   margin: 5px;
-  padding: 12px;
+  padding: 5px;
   text-shadow: 2px 2px 2px #D98452;
   border-radius: 50px;
+  width: 250px;
+  background: #f1eeeb;
 }
 
 .column a {
@@ -84,16 +92,22 @@ a:link {
   text-decoration: none;
 }
 
-.menu a:hover {
+.column2 a:hover {
   background-color: #f1eeeb;
   border-radius: 20px;
   padding: 5px;
 }
 
-.menu a:active {
+.column2 a:active {
   background-color: #f1eeeb;
   border-radius: 20px;
   padding: 5px;
+}
+
+.music-title {
+  text-align: center;
+  color: #3b443b;
+  padding-top: 50px;
 }
 
 .albumn {
