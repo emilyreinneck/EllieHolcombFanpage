@@ -30,9 +30,9 @@ body {
 .profile {
   width: 150px;
   border-radius: 200px;
-  margin-left: -200px;
+  margin-right: 200px;
+  float: left;
 }
-
 .contact {
   text-align: right;
 }
@@ -90,9 +90,18 @@ a:link {
   padding: 5px;
 }
 
-.music-content {
+.menu a:active {
+  background-color: #f1eeeb;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.albumn {
   display: flex;
-  padding: 100px;
+}
+
+.other-albumn {
+  display: flex;
 }
 
 .song {
@@ -100,8 +109,8 @@ a:link {
 }
 
 .song1 {
-  margin: 20px;
-  flex: 50%;
+  margin: 50px;
+  flex: 100%;
   box-shadow: -5px -5px 5px #C8c7c5;
 }
 
@@ -109,10 +118,12 @@ a:link {
   color: #3b443b;
   text-align: center;
   padding-top: 50px;
+  padding: 100px;
 }
 
 .about {
-  padding: 50px;
+  padding: 20px;
+  margin: auto;
 }
 
 .sep24 {
