@@ -137,7 +137,8 @@ a:link {
 
 .about {
   padding: 20px;
-  margin: auto;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .sep24 {
