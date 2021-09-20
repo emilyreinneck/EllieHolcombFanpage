@@ -123,8 +123,8 @@ a:link {
 }
 
 .song1 {
-  margin: 50px;
-  flex: 100%;
+  margin: 100px;
+  flex: 50%;
   box-shadow: -5px -5px 5px #C8c7c5;
 }
 
